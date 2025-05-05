@@ -69,8 +69,8 @@ button_execute = ttk.Button(window, text="Execute Organizer", command=lambda: ex
 button_execute.pack(pady=15)
 
 # Add a progress bar for feedback during file processing
-# progress_bar = ttk.Progressbar(window, mode='indeterminate', length=200)
-# progress_bar.pack(pady=10)
+progress_bar = ttk.Progressbar(window, mode='indeterminate', length=200)
+progress_bar.pack(pady=10)
 
 # Create text area for output
 output_text = scrolledtext.ScrolledText(window, wrap=tk.WORD, width=60, height=10, bd=2)
