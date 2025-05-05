@@ -3,10 +3,14 @@ import shutil
 
 def organise_files(path):
     file_types = {
-        'Images': ['.jpg', '.png', '.gif'],
-        'Documents': ['.pdf', '.txt', '.docx'],
-        'Videos': ['.mp4', '.avi'],
-        'Audio': ['.mp3', '.wav']
+        'Images': ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.tiff', '.svg', '.webp'],
+        'Documents': ['.pdf', '.txt', '.doc', '.docx', '.odt', '.rtf', '.md', '.tex', '.log'],
+        'Spreadsheets': ['.xls', '.xlsx', '.csv', '.ods'],
+        'Presentations': ['.ppt', '.pptx', '.odp'],
+        'Videos': ['.mp4', '.avi', '.mov', '.wmv', '.flv', '.mkv', '.webm'],
+        'Audio': ['.mp3', '.wav', '.aac', '.ogg', '.flac', '.m4a'],
+        'Archives': ['.zip', '.rar', '.tar', '.gz', '.bz2', '.7z', '.xz'],
+        'Code': ['.py', '.js', '.java', '.c', '.cpp', '.cs', '.rb', '.go', '.php', '.html', '.css', '.json', '.xml', '.sh', '.bat', '.ipynb']
     }
     
     files = os.listdir(path)
