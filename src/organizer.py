@@ -36,7 +36,11 @@ def organise_files(path):
                     break
             
             if not folder_found:
-                output.append(f"Unsupported file type for {file}\n")
+                # Move to 'Others' folder
+                others_folder = os.path.join(path, 'Others')
+                ensure_folder_exists(others_folder)
+                shutil.move(os.path.join(path, file), os.path.join(others_folder, file))
+                output.append(f"Moved {file} to Others folder\n")
 
         except Exception as e:
             output.append(f"Error with file {file}: {str(e)}\n")
