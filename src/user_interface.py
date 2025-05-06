@@ -4,19 +4,11 @@ from tkinter import scrolledtext, filedialog, messagebox
 from tkinter import ttk
 from collections import Counter
 
-from src.organizer import organise_files
+from src.organizer import FileOrganizer
 
-# Define a global variable to hold the organizer function
-organizer_function = None
-
-def set_organizer_function(func):
-    global organizer_function
-    organizer_function = func
+organizer = FileOrganizer()
 
 def execute_organizer(entry_path):
-    if organizer_function is None:
-        raise ValueError("Organizer function is not set.")
-    
     path = entry_path.get()
     output_text.delete(1.0, tk.END)  # Clear previous output
     status_label.config(text="Organizing...")
@@ -32,7 +24,7 @@ def execute_organizer(entry_path):
     button_execute.config(state=tk.DISABLED)
 
     try:
-        output = organizer_function(path)
+        output = organizer.organize(path)
         # Parse output for summary
         summary_counter = Counter()
         for line in output:
@@ -127,5 +119,4 @@ status_label.pack(fill=tk.X, side=tk.LEFT, expand=True, ipady=2)
 
 # Run the application
 if __name__ == "__main__":
-    set_organizer_function(organise_files)
     window.mainloop()
