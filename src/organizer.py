@@ -1,5 +1,13 @@
 import os
 import shutil
+import logging
+
+# Set up logging
+logging.basicConfig(
+    filename='organizer.log',
+    level=logging.INFO,
+    format='%(asctime)s [%(levelname)s] %(message)s'
+)
 
 def organise_files(path):
     file_types = {
@@ -31,7 +39,9 @@ def organise_files(path):
                     folder = os.path.join(path, category)
                     ensure_folder_exists(folder)
                     shutil.move(os.path.join(path, file), os.path.join(folder, file))
-                    output.append(f"Moved {file} to {category} folder\n")
+                    msg = f"Moved {file} to {category} folder"
+                    logging.info(msg)
+                    output.append(msg + "\n")
                     folder_found = True
                     break
             
@@ -40,9 +50,13 @@ def organise_files(path):
                 others_folder = os.path.join(path, 'Others')
                 ensure_folder_exists(others_folder)
                 shutil.move(os.path.join(path, file), os.path.join(others_folder, file))
-                output.append(f"Moved {file} to Others folder\n")
+                msg = f"Moved {file} to Others folder"
+                logging.info(msg)
+                output.append(msg + "\n")
 
         except Exception as e:
-            output.append(f"Error with file {file}: {str(e)}\n")
+            error_msg = f"Error with file {file}: {str(e)}"
+            logging.error(error_msg)
+            output.append(error_msg + "\n")
 
     return output
