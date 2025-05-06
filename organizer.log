@@ -31,3 +31,49 @@
 2025-05-06 09:48:42,176 [INFO] Moved staria.jpg to Images folder
 2025-05-06 09:48:42,179 [INFO] Moved SteamSetup.exe to Others folder
 2025-05-06 09:48:42,180 [INFO] Moved stevejobs.1419962519.jpeg to Images folder
+2025-05-06 09:51:57,205 [INFO] Moved a4.jpg to Images folder
+2025-05-06 09:51:57,206 [INFO] Moved bus-tracking-example.jpg to Images folder
+2025-05-06 09:51:57,207 [INFO] Moved corolla.jpg to Images folder
+2025-05-06 09:51:57,208 [INFO] Moved flutter.png to Images folder
+2025-05-06 09:51:57,209 [INFO] Moved fortuner.jpg to Images folder
+2025-05-06 09:51:57,211 [INFO] Moved hero.png to Images folder
+2025-05-06 09:51:57,212 [INFO] Moved homepage.png to Images folder
+2025-05-06 09:51:57,213 [INFO] Moved i1.png to Images folder
+2025-05-06 09:51:57,213 [INFO] Moved i10.jpg to Images folder
+2025-05-06 09:51:57,214 [INFO] Moved i2.png to Images folder
+2025-05-06 09:51:57,214 [INFO] Moved icon.svg to Images folder
+2025-05-06 09:51:57,215 [INFO] Moved IMG-20250322-WA0017.jpg to Images folder
+2025-05-06 09:51:57,216 [INFO] Moved new.png to Images folder
+2025-05-06 09:51:57,217 [INFO] Moved polo.jpg to Images folder
+2025-05-06 09:51:57,217 [INFO] Moved projects.png to Images folder
+2025-05-06 09:51:57,218 [INFO] Moved Screenshot 2024-10-22 162623.png to Images folder
+2025-05-06 09:51:57,219 [INFO] Moved Screenshot 2024-10-22 191738.png to Images folder
+2025-05-06 09:51:57,221 [INFO] Moved Screenshot 2024-10-29 080436.png to Images folder
+2025-05-06 09:51:57,222 [INFO] Moved Screenshot 2025-04-04 104611.png to Images folder
+2025-05-06 09:51:57,223 [INFO] Moved Screenshot 2025-04-04 185446.png to Images folder
+2025-05-06 09:51:57,224 [INFO] Moved Screenshot 2025-04-11 191443.png to Images folder
+2025-05-06 09:51:57,225 [INFO] Moved Screenshot 2025-04-12 112624.png to Images folder
+2025-05-06 09:51:57,226 [INFO] Moved Screenshot 2025-04-12 123915.png to Images folder
+2025-05-06 09:51:57,228 [INFO] Moved Screenshot 2025-04-12 232215.png to Images folder
+2025-05-06 09:51:57,229 [INFO] Moved Screenshot 2025-04-15 141808.png to Images folder
+2025-05-06 09:51:57,229 [INFO] Moved Screenshot 2025-04-20 180321.png to Images folder
+2025-05-06 09:51:57,230 [INFO] Moved Screenshot 2025-04-27 150508.png to Images folder
+2025-05-06 09:51:57,231 [INFO] Moved Screenshot 2025-04-30 142649.png to Images folder
+2025-05-06 09:51:57,232 [INFO] Moved staria.jpg to Images folder
+2025-05-06 09:51:57,232 [INFO] Moved stevejobs.1419962519.jpeg to Images folder
+2025-05-06 09:53:47,356 [INFO] Moved Archives to Others folder
+2025-05-06 09:53:47,357 [INFO] Moved Audio to Others folder
+2025-05-06 09:53:47,358 [INFO] Moved Code to Others folder
+2025-05-06 09:53:47,359 [INFO] Moved Documents to Others folder
+2025-05-06 09:53:47,359 [INFO] Moved Images to Others folder
+2025-05-06 09:53:47,363 [ERROR] Error with file Others: Cannot move a directory 'C:/Users/banel/Downloads\Others' into itself 'C:/Users/banel/Downloads\Others\Others'.
+2025-05-06 09:53:47,363 [INFO] Moved Presentations to Others folder
+2025-05-06 09:53:47,364 [INFO] Moved Videos to Others folder
+2025-05-06 09:54:09,204 [INFO] Moved Banele_Mjaji_CV.pdf to Documents folder
+2025-05-06 09:54:09,207 [INFO] Moved frontend-tribe-single-page-dev-portfolio-resource-bundle to Others folder
+2025-05-06 09:54:09,209 [INFO] Moved frontend-tribe-single-page-dev-portfolio-resource-bundle.zip to Archives folder
+2025-05-06 09:54:09,211 [INFO] Moved Week 1_ Introduction to data engineering __ WTC_ Curriculum.pdf to Documents folder
+2025-05-06 09:54:09,213 [INFO] Moved Week 2_ Data storage and virtualisation __ WTC_ Curriculum.pdf to Documents folder
+2025-05-06 09:54:09,215 [INFO] Moved Week 3_ Database management systems __ WTC_ Curriculum.pdf to Documents folder
+2025-05-06 09:54:09,217 [INFO] Moved Week 5_ Data processing __ WTC_ Curriculum.pdf to Documents folder
+2025-05-06 09:54:09,219 [INFO] Moved Week 6_ Data governance and real-world applications __ WTC_ Curriculum.pdf to Documents folder
